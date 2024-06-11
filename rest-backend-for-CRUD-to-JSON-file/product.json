@@ -1,0 +1,19 @@
+{
+    "3253": {
+        "product_name": "ZenBook",
+        "vendor": "ASUS",
+        "price": "800"
+    },
+    "395908": {
+        "id": 395908,
+        "product_name": "VivoBook",
+        "vendor": "ASUS",
+        "price": "1300"
+    },
+    "602348": {
+        "id": 602348,
+        "product_name": "VivoBook",
+        "vendor": "ASUS",
+        "price": "15222"
+    }
+}
