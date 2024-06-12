@@ -39,6 +39,7 @@ export class ProductListComponent {
         if (window.confirm("Sicuro di elimare l'utente")) {
             this.productService.deleteProduct(product).subscribe(data => {
                 this.prodotti.splice(index, 1);
+                this.feed = { feedbackType: 'success', feedbackMsg: 'PRODOTTO ELIMINATO' };
             })
         }
     }

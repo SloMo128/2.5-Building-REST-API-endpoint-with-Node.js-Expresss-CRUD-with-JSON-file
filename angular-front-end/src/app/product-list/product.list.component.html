@@ -8,7 +8,7 @@
           feed.feedbackType === "error"
           ? feed.feedbackMsg + " - Please try again later."
           : ""
-          }} 
+        }}
     </div>
   </div>
   
@@ -26,7 +26,7 @@
         <td>{{product.id}}</td>
         <td><a [routerLink]="['/update/',product.id]">{{product.product_name}} </a></td>
         <td><a [routerLink]="['/update/',product.id]">{{product.vendor}} </a> </td>
-        <td>{{product.price}}</td>
+        <td> {{product.price}} €</td>
 
         <td class="text-center">
           <button type="submit" routerLinkActive="active" routerLink="/update/{{product.id}}" style="background-color:rgb(22, 218, 22)">
